@@ -27,6 +27,8 @@ padding: 0;
 background-image: url(Assets/Background.png);
 background-repeat: no-repeat;
 background-size: contain;
+align-items: center;
+text-align: center;
 
 }
 
@@ -39,10 +41,10 @@ grid-template-columns: 50% 50%;
 
 .conteiner__botao {
 background-color: var(--botao-azul);
-border-radius: 16px;
+border-radius: 5px;
 padding: 1em;
 color: var(--branco-principal);
-display: flex;
+display: block;
 text-decoration: none;
 margin-bottom: 1em;
 
@@ -60,7 +62,8 @@ color: var(--cinza-secundario);
 }
 
 .conteiner__titulo {
-position: absolute;
+font-size: 28px;
+font-weight: 700;
 
 }
 
