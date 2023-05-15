@@ -155,10 +155,15 @@ margin-top: 1em;
    text-align: center;
 }
 
-.rodape__lista li a {
-
+.rodape__lista li {
     display: flex;
     justify-content: center;
+    align-items: center;
+    gap: 16px;
+  }
+
+.rodape__lista li a {
+
     color: var(--branco-principal);
     list-style-type: none;
     
