@@ -152,13 +152,13 @@ margin-top: 1em;
 
 .rodape__logo {
 
-   text-align: center;
+   text-align: center; 
+   margin-bottom: 3em;
 }
 
 .rodape__lista li {
-    display: flex;
-    justify-content: center;
-    align-items: center;
+    display: inline-flex;
+    margin: 0 16px;
     gap: 16px;
   }
 
