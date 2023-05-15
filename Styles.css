@@ -155,9 +155,10 @@ margin-top: 1em;
    text-align: center;
 }
 
-.rodape__lista {
+.rodape__lista li a {
 
     display: flex;
+    justify-content: center;
     color: var(--branco-principal);
     list-style-type: none;
     
