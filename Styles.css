@@ -176,3 +176,9 @@ margin-top: 1em;
     text-align: center;
     margin: 2em 0;
 }
+
+.lista__link a:hover {
+
+    color: var(--botao-azul);
+
+}
